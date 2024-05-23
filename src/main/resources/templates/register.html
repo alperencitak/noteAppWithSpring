@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+
+<body>
+    <div id="top-bar">
+        <a href="/">
+            <h1 id="title">NOTE <span>APP</span></h1>
+        </a>
+        <a href="/sign-in"><input type="button" name="login" class="bar-input" id="login-input" value="Sign In"></a>
+        <a href="/sign-up"><input type="button" name="register" class="bar-input" id="register-input"
+                value="Sign Up"></a>
+    </div>
+
+    <div id="register-div">
+        <div class="form-container">
+            <p class="title">Sign Up</p>
+            <form class="form">
+                <input type="username" class="input" placeholder="Username">
+                <input type="password" class="input" placeholder="Password">
+                <button class="form-btn">Sign Up</button>
+            </form>
+            <p class="sign-up-label">
+                Do have an account? <span class="sign-up-link"><a href="/sign-in">Sign In</a></span>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
